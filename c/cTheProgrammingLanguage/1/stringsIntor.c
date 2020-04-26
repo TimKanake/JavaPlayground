@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 #define MAXLINE 1000 /* Max String Input Size */
 
 int getLine(char line[], int longestLine);
@@ -41,8 +43,7 @@ int getLine(char line[], int longestLine){
   }
 
   if (c == '\n') {
-    line[i] = c;
-    ++i;
+    line[i++] = c;
   }
 
   line[i] = '\0';
