@@ -59,6 +59,10 @@ for i in range(len(test_nums)):
 '''
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 83839f7b5566d9c94e6f26739119ea86d8d90e5f
 def process_binary_number(s):
 
     counter = 0
@@ -72,10 +76,16 @@ def process_binary_number(s):
 
     return counter
 
+<<<<<<< HEAD
 '''
+=======
+>>>>>>> 83839f7b5566d9c94e6f26739119ea86d8d90e5f
 
 print(process_binary_number('011100'))
 print(process_binary_number('1111010101111'))
 print(process_binary_number('111'))
+<<<<<<< HEAD
 
 '''
+=======
+>>>>>>> 83839f7b5566d9c94e6f26739119ea86d8d90e5f
